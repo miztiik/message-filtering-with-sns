@@ -9,14 +9,14 @@ setuptools.setup(
     name="message_filtering_with_sns",
     version="0.0.1",
 
-    description="An empty CDK Python app",
+    description="message-filtering-with-sns",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     author="author",
 
-    package_dir={"": "message_filtering_with_sns"},
-    packages=setuptools.find_packages(where="message_filtering_with_sns"),
+    package_dir={"": "stacks"},
+    packages=setuptools.find_packages(where="stacks"),
 
     install_requires=[
         "aws-cdk.core==1.94.1",
